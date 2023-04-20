@@ -1,0 +1,44 @@
+.main__albom{
+    margin-top: 110px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 32px;
+    padding:25px;
+    
+   
+}
+
+
+.main_photo{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    max-width: 431.33px;
+    cursor:pointer;
+    transition: all 0.3s;
+}
+
+.main_photo:hover{
+    transform: translateY(-5px);
+    box-shadow: 0px 30px 20px -12px rgba(0, 0, 0, 0.25);
+    border-radius: 8px;
+}
+
+.main_photo img{
+    height: 100%;
+    width: 100%;
+    border-radius: 8px;
+}
+
+
+.main__photo__id{
+    padding:5px 5px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 20px;
+    color: #111827;
+}
