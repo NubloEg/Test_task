@@ -28,7 +28,7 @@
    
 }
 
-.person__info{
+.header__info{
     display: flex;
     justify-content: space-between;
     width: 100%;
@@ -36,7 +36,7 @@
 }
 
 @media (max-width:650px){
-    .person__info{
+    .header__info{
         justify-content:center;
     }
 }
